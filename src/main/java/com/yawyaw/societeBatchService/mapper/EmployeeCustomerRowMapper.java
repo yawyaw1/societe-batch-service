@@ -1,6 +1,6 @@
-package com.example.societebatchservice.mapper;
+package com.yawyaw.societeBatchService.mapper;
 
-import com.example.societebatchservice.entities.Employee;
+import com.yawyaw.societeBatchService.entities.Employee;
 import org.springframework.jdbc.core.RowMapper;
 
 import java.sql.ResultSet;

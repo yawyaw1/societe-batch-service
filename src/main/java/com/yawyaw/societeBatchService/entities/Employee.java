@@ -1,4 +1,4 @@
-package com.example.societebatchservice.entities;
+package com.yawyaw.societeBatchService.entities;
 
 import lombok.Data;
 import lombok.NoArgsConstructor;

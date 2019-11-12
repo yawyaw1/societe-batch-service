@@ -1,4 +1,4 @@
-package com.example.societebatchservice;
+package com.yawyaw.societeBatchService;
 
 
 class SocieteBatchServiceApplicationTests {
