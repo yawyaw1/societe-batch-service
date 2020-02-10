@@ -43,6 +43,8 @@ public class SocieteServiceConfig {
                 .<Employee, Employee>chunk(1)
                 .reader(itemReader())
                 //.processor()
+                //To execut in multithreaded step "Be carefull to replace the SimpleAsyncTaskExecutor() in production by sofe way" 
+                //.taskExecutor(new SimpleAsyncTaskExecutor())
                 .writer(itemWriter())
                 .build();
     }
